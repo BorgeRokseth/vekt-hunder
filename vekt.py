@@ -24,7 +24,7 @@ elsa_df = pd.read_csv('data/elsa.csv')
 
 nuka_df['days'] = days(nuka_df, days_at_first_measurement(nuka_df, '2020-06-24'))
 malo_df['days'] = days(malo_df, days_at_first_measurement(malo_df, '2020-06-24'))
-elsa_df['days'] = days(elsa_df, days_at_first_measurement(elsa_df, '2019-11-01'))
+elsa_df['days'] = days(elsa_df, days_at_first_measurement(elsa_df, '2019-10-11'))
 
 fig, ax = plt.subplots()
 nuka_df.plot(x='days', y='vekt', ax=ax, label='Nuka')
