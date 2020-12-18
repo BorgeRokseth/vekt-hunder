@@ -31,4 +31,5 @@ nuka_df.plot(x='days', y='vekt', ax=ax, label='Nuka')
 malo_df.plot(x='days', y='vekt', ax=ax, label='Malo')
 elsa_df.plot(x='days', y='vekt', ax=ax, label='Elsa')
 
+plt.savefig('vekt.png')
 plt.show()
